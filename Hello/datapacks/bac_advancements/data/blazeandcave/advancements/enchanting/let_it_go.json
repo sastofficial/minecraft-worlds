@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "title": {"translate":"Let It Go!"},
+        "description": {"translate":"Obtain boots enchanted with Frost Walker"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:enchanting/old_cartoon_joke",
+    "rewards": {
+		"function": "bc_rewards:enchanting/frozen"
+    },			
+    "criteria": {
+        "frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"enchantments": [
+							{
+								"enchantment": "minecraft:frost_walker"
+							}
+						]
+					}
+				]
+			}
+		}
+    }
+}

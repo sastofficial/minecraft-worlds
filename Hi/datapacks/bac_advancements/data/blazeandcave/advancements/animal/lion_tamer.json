@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_leaves"
+        },
+        "title": {"translate":"Lion Tamer"},
+        "description": {"translate":"Tame an Ocelot using fish"}
+    },
+    "parent": "blazeandcave:animal/salmonella_poisoning",
+	"rewards": {
+		"function": "bc_rewards:animal/lion_tamer"
+    },		
+    "criteria": {
+        "tamed_animal": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ocelot"
+                }
+			}
+        }
+    }
+}

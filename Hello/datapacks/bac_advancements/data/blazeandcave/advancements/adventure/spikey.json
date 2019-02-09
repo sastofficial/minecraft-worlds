@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cactus"
+        },
+        "title": {"translate":"Spikey!"},
+        "description": {"translate":"Run into a cactus"}
+    },
+    "parent": "blazeandcave:adventure/this_is_mine_now",
+	"rewards": {
+		"function": "bc_rewards:adventure/spikey"
+    },
+    "criteria": {
+        "cactus": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:cactus"
+            }
+        }
+    }
+}

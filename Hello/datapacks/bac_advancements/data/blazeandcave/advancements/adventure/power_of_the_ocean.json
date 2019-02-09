@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "title": {"translate":"Power of the Ocean"},
+        "description": {"translate":"Construct a Conduit in the ocean"},
+		"frame": "goal"
+    },
+    "parent": "blazeandcave:adventure/x_marks_the_spot",
+	"rewards": {
+		"experience": 50,	
+		"function": "bc_rewards:adventure/power_of_the_ocean"
+    },	
+    "criteria": {
+        "conduit_power": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {}
+                }
+            }
+        }
+    }
+}

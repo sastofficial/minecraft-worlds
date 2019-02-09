@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "title": {"translate":"Do you want to build a snowman?"},
+        "description": {"translate":"Use a pumpkin and snow blocks to build a snow golem"}
+    },
+    "parent": "blazeandcave:farming/the_pie",
+	"rewards": {
+		"function": "bc_rewards:farming/do_you_want_to_build_a_snow_golem"
+    },		
+    "criteria": {
+        "summoned": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snow_golem"
+                }
+            }
+        }
+    }
+}

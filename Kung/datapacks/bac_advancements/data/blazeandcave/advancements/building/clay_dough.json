@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clay_ball"
+        },
+        "title": {"translate":"Clay-Dough!"},
+        "description": {"translate":"Dig up some clay from a lake"}
+    },
+    "parent": "blazeandcave:building/root",
+	"rewards": {
+		"function": "bc_rewards:building/play_dough"
+    },		
+    "criteria": {
+        "clay_ball": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clay_ball"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:minecart"
+        },
+        "title": {"translate":"On A Rail"},
+        "description": {"translate":"Craft a minecart using five iron ingots"}
+    },
+    "parent": "minecraft:story/smelt_iron",
+    "rewards": {
+		"function": "bc_rewards:mining/on_a_rail"
+    },		
+    "criteria": {
+        "minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:minecart"
+                    }
+                ]
+            }
+        }
+    }
+}

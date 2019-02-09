@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cod"
+        },
+        "title": {"translate":"Dolphin Dasher"},
+        "description": {"translate":"Get a speed boost from your friendly underwater companions"}
+    },
+    "parent": "blazeandcave:adventure/boaty_mcboatface",
+	"rewards": {
+		"function": "bc_rewards:adventure/dolphin_dasher"
+    },	
+    "criteria": {
+        "dolphins_grace": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:dolphins_grace": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cod"
+        },
+        "title": {"translate":"Eskimo"},
+        "description": {"translate":"It may be illegal to hunt polar bears in real life, but not in Minecraft"}
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "rewards": {
+        "function": "bc_rewards:combat/eskimo"
+    },		
+    "criteria": {
+        "polar_bear": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "polar_bear"
+                }
+            }
+        }
+    }
+}

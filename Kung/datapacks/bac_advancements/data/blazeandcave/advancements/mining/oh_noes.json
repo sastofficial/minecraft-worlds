@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stick"
+        },
+        "title": {"translate":"Aww it broke!"},
+        "description": {"translate":"Break your first tool"}
+    },
+    "parent": "minecraft:story/mine_stone",
+    "rewards": {
+		"function": "bc_rewards:mining/oh_noes"
+    },		
+    "criteria": {
+        "break_tool": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"durability": -1
+            }
+        }
+    }
+}

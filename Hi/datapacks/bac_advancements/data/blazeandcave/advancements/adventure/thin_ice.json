@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "title": {"translate":"Thin Ice!"},
+        "description": {"translate":"Use a silk touch pickaxe to pick up some ice blocks"}
+    },
+    "parent": "blazeandcave:adventure/boaty_mcboatface",
+    "rewards": {
+        "function": "bc_rewards:adventure/thin_ice"
+    },		
+    "criteria": {
+        "ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ice"
+                    }
+                ]
+            }
+        }
+    }
+}

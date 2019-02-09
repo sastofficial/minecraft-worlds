@@ -1,0 +1,87 @@
+{
+	"__comment": "Designed by Mcmakistein with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/stone",
+		"texture": "custom/stone"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 0, 4 ],
+			"to": [ 1, 8, 12 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, 8, 4 ],
+			"to": [ 1, 16, 12 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, -8, 4 ],
+			"to": [ 1, 0, 12 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, 8, -12 ],
+			"to": [ 1, 16, -4 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, 0, -12 ],
+			"to": [ 1, 8, -4 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, -8, -12 ],
+			"to": [ 1, 0, -4 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, -8, -4 ],
+			"to": [ 1, 0, 4 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, 0, -4 ],
+			"to": [ 1, 8, 4 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 0, 8, -4 ],
+			"to": [ 1, 16, 4 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation":  [ 46.739, -17.7, 0 ],
+			"scale":  [ 1, 3.2, 3.2 ]
+		}
+	}
+}

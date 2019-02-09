@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {"translate":"Farrier"},
+        "description": {"translate":"Breed a horse in an effort to get a better one"}
+    },
+    "parent": "blazeandcave:animal/cowboy",
+	"rewards": {
+		"function": "bc_rewards:animal/farrier"
+    },		
+    "criteria": {
+        "horse": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+				"parent": {
+					"type": "minecraft:horse"
+				},
+				"partner": {
+					"type": "minecraft:horse"
+				}
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {"translate":"A Throwaway Joke"},
+        "description": {"translate":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea"}
+    },
+    "parent": "blazeandcave:combat/because_im_aquaman",
+    "rewards": {
+        "function": "bc_rewards:combat/a_watery_grave"
+    },
+	"criteria": {
+		"shot_trident": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"is_projectile": true,
+						"direct_entity": {
+							"type": "minecraft:trident"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "title": {"translate":"Beginning"},
+        "description": {"translate":"A brave new world"},
+        "background": "minecraft:textures/block/dirt.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+	"rewards": {
+		"function": "bc_rewards:beginning/root"
+    },		
+    "criteria": {
+        "location": {
+            "trigger": "minecraft:location"
+        }
+    }
+}

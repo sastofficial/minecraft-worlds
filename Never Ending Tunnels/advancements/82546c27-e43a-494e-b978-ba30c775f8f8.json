@@ -1,0 +1,33 @@
+{
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2018-08-23 07:15:16 +0200",
+      "iron_chestplate": "2018-08-23 07:15:16 +0200",
+      "iron_leggings": "2018-08-23 07:15:16 +0200",
+      "iron_helmet": "2018-08-23 07:15:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-08-23 07:15:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2018-08-23 07:16:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_boots": "2018-08-23 07:15:16 +0200",
+      "has_iron_leggings": "2018-08-23 07:15:16 +0200",
+      "has_iron_helmet": "2018-08-23 07:15:16 +0200",
+      "has_iron_sword": "2018-08-23 07:15:16 +0200",
+      "has_iron_chestplate": "2018-08-23 07:15:16 +0200"
+    },
+    "done": true
+  }
+}
