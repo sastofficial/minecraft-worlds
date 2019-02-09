@@ -1,0 +1,3 @@
+# update players action bar
+title @s times 0 1 1
+title @s actionbar [{"text":"|", "color": "gray", "obfuscated": "true"}, {"text":"   "}, {"text":"|", "color": "gray", "obfuscated": "true"}, {"text":"   "}, {"text":"|", "color": "gray", "obfuscated": "true"}, {"text":"   "}, {"text":"A", "color": "white", "bold": "true", "obfuscated": "true"}, {"text":"   "}, {"text":"|", "color": "gray", "obfuscated": "true"}, {"text":"   "}, {"text":"|", "color": "gray", "obfuscated": "true"}, {"text":"   "}, {"text":"|", "color": "gray", "obfuscated": "true"}]
