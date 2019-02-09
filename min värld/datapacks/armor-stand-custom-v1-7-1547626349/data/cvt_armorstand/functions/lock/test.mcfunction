@@ -1,0 +1,2 @@
+execute as @e[tag=cvt_ready,nbt={DisabledSlots:0}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:lever",Count:1b}},tag=!cvt_powered] run function cvt_armorstand:lock/lock
+execute as @e[tag=cvt_locked,nbt={DisabledSlots:2039583}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:lever",Count:1b}},tag=!cvt_powered] run function cvt_armorstand:lock/unlock

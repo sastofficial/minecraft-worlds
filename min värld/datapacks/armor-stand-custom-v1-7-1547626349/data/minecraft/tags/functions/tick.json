@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "cvt_armorstand:tag",
+    "cvt_armorstand:arms/test",
+    "cvt_armorstand:plate/test",
+    "cvt_armorstand:size/test",
+    "cvt_armorstand:visibility/test",
+    "cvt_armorstand:name/test",
+    "cvt_armorstand:glow/test",
+    "cvt_armorstand:gravity/test",
+    "cvt_armorstand:lock/test",
+    "cvt_armorstand:pose/head/test",
+    "cvt_armorstand:pose/body/test",
+    "cvt_armorstand:pose/rightarm/test",
+    "cvt_armorstand:pose/leftarm/test",
+    "cvt_armorstand:pose/rightleg/test",
+    "cvt_armorstand:pose/leftleg/test",
+    "cvt_armorstand:turn/test",
+	"cvt_armorstand:remote/reciever/test",
+	"cvt_armorstand:remote/controller/installreciever",
+	"cvt_armorstand:remote/controller/test",
+	"cvt_armorstand:remote/controller/signal",
+	"cvt_armorstand:remote/controller/scoretrack",
+	"cvt_armorstand:book/test"
+  ]
+}

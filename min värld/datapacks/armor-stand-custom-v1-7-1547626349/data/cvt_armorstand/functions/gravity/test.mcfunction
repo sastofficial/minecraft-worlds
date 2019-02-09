@@ -1,0 +1,2 @@
+execute as @e[tag=cvt_ready,nbt=!{NoGravity:1b},nbt={Invisible:0b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:popped_chorus_fruit",Count:1b}}] run function cvt_armorstand:gravity/off
+execute as @e[tag=cvt_ready,nbt={NoGravity:1b,Invisible:0b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:anvil"}}] run function cvt_armorstand:gravity/on

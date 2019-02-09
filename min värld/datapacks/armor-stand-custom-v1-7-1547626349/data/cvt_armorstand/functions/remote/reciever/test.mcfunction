@@ -1,0 +1,1 @@
+execute as @e[tag=cvt_ready] at @s if entity @e[type=item,tag=!cvt_remotereciever,nbt={Item:{id:"minecraft:tripwire_hook"}},distance=..1] run function cvt_armorstand:remote/reciever/get

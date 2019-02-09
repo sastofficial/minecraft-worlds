@@ -1,0 +1,2 @@
+data merge entity @e[type=item,limit=1,sort=nearest] {Tags:["cvt_remotereciever"],CustomNameVisible:1b,CustomName:"{\"text\":\"Armor Stand Remote Reciever\",\"color\":\"red\",\"underlined\":\"true\"}",Item:{tag:{cvt_remotereciever:1b,display:{Name:"{\"text\":\"Armor Stand Remote Reciever\",\"color\":\"red\",\"underlined\":\"true\"}",Lore:["Put this in the armor stand's mainhand","to move it using the remote controller."]},Enchantments:[{id:"minecraft:frost_walker",lvl:1}]}}}
+playsound minecraft:block.anvil.use master @a

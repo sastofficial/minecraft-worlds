@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Customization Begins!",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Place the armor stand, then drop a regular book on it to see what this pack offers. "
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_book": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "get_book"
+        ]
+    ],
+    "parent": "cvt_armorstand:root"
+}

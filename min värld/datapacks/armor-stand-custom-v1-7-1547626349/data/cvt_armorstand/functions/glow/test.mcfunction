@@ -1,0 +1,2 @@
+execute as @e[tag=cvt_ready,nbt=!{Glowing:1b},nbt={Invisible:0b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:spectral_arrow",Count:10b}}] run function cvt_armorstand:glow/add
+execute as @e[tag=cvt_ready,nbt={Glowing:1b,Invisible:0b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:arrow"}}] run function cvt_armorstand:glow/remove

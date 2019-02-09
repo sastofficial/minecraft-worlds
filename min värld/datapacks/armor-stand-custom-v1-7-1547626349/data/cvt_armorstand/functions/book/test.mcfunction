@@ -1,0 +1,1 @@
+execute as @e[tag=cvt_ready,nbt={Invisible:0b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:book",Count:1b}}] run function cvt_armorstand:book/give

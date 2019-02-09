@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,nbt={Invulnerable:0b},tag=!locked,tag=!cvt_locked,nbt=!{Marker:1b},tag=!cvt_ready] at @s if entity @a[distance=..5] run tag @s add cvt_ready
+execute as @e[type=armor_stand,nbt={Invulnerable:0b},tag=!locked,tag=!cvt_locked,nbt=!{Marker:1b},tag=cvt_ready] at @s unless entity @a[distance=..5] run tag @s remove cvt_ready

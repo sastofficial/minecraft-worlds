@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "50 Meter Club",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Move the armor stand with the remote for a total of 50 meters. "
+        },
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "move_as": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "move_as"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "cvt_armorstand:rc_as"
+}

@@ -1,0 +1,2 @@
+execute as @e[tag=cvt_ready,nbt={Invisible:0b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:piston",Count:1b}},tag=!cvt_rotated] run function cvt_armorstand:turn/right
+execute as @e[tag=cvt_ready,nbt={Invisible:0b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:sticky_piston",Count:1b}},tag=!cvt_rotated] run function cvt_armorstand:turn/left

@@ -1,0 +1,6 @@
+execute as @e[tag=cvt_ready,nbt={Invisible:0b},nbt=!{CustomNameVisible:1b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:sign",Count:1b}},tag=!cvt_removed] run function cvt_armorstand:name/show
+execute as @e[tag=cvt_ready,nbt={Invisible:0b,CustomNameVisible:1b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:water_bucket",Count:1b}}] run function cvt_armorstand:name/hide/none
+execute as @e[tag=cvt_ready,nbt={Invisible:0b,CustomNameVisible:1b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:cod_bucket",Count:1b}}] run function cvt_armorstand:name/hide/cod
+execute as @e[tag=cvt_ready,nbt={Invisible:0b,CustomNameVisible:1b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:salmon_bucket",Count:1b}}] run function cvt_armorstand:name/hide/salmon
+execute as @e[tag=cvt_ready,nbt={Invisible:0b,CustomNameVisible:1b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:pufferfish_bucket",Count:1b}}] run function cvt_armorstand:name/hide/pufferfish
+execute as @e[tag=cvt_ready,nbt={Invisible:0b,CustomNameVisible:1b}] at @s if entity @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:tropical_fish_bucket",Count:1b}}] run function cvt_armorstand:name/hide/tropicalfish

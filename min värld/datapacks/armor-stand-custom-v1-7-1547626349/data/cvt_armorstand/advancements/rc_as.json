@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Remote Control Armor Stands",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Don't forget the reciever!"
+        },
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "move_as": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "move_as"
+        ]
+    ],
+    "parent": "cvt_armorstand:get_guide"
+}

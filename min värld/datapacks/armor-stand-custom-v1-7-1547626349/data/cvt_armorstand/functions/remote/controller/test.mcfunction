@@ -1,0 +1,2 @@
+execute as @e[tag=cvt_ready] at @s if entity @e[type=item,tag=!cvt_remotecontroller,nbt={Item:{id:"minecraft:writable_book",Count:1b}},distance=..1] run function cvt_armorstand:remote/controller/get
+scoreboard players enable @a cvt_tpsignal
