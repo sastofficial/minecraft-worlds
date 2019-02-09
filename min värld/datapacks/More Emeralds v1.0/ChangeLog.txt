@@ -1,0 +1,3 @@
+v1.0 :
+- Villager will drop emeralds if killed by players (affected by looting enchant)
+- You can now fish emeralds
