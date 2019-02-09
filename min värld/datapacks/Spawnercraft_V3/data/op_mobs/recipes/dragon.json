@@ -1,0 +1,3 @@
+﻿{
+"type": "crafting_shaped","pattern": ["###","#H#","###"],"key": {"#": {"item": "minecraft:nether_star"},"H": {"item": "minecraft:dragon_head"}},"result": {"item": "minecraft:barrier","count": 1},"group": "op"
+}

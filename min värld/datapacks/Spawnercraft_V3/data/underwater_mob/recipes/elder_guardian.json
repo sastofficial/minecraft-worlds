@@ -1,0 +1,30 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "PEX",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "P": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "X": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:elder_guardian_spawn_egg",
+        "count": 1
+    },
+    "group": "underwater"
+}

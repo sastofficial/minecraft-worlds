@@ -1,0 +1,4 @@
+﻿{
+"type": "crafting_shaped","pattern": [" C ","#E#"," g "],"key": {"#": {"item": "minecraft:water_bucket"},"C": {"item": "minecraft:seagrass"},"E": {"item": "minecraft:turtle_egg"},"g": {
+"item": "minecraft:gold_ingot"}},"result": {"item": "minecraft:turtle_spawn_egg","count": 1},"group": "underwater"
+}

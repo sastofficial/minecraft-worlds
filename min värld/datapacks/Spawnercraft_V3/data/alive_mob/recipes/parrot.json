@@ -1,0 +1,4 @@
+﻿{
+"type": "crafting_shaped","pattern": [" C ","#E#"," g "],"key": {"#": {"item": "minecraft:feather"},"C": {"item": "minecraft:wheat_seeds"},"E": {"item": "minecraft:egg"},"g": {
+"item": "minecraft:gold_ingot"}},"result": {"item": "minecraft:parrot_spawn_egg","count": 1},"group": "egg"
+}

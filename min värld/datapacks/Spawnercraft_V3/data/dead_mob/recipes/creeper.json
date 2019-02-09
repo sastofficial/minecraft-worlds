@@ -1,0 +1,27 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "GEG",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:tnt"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:creeper_spawn_egg",
+        "count": 1
+    },
+    "group": "undead"
+}

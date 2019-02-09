@@ -1,0 +1,27 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "SES",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dead_bush"
+        },
+        "S": {
+            "item": "minecraft:sand"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:husk_spawn_egg",
+        "count": 1
+    },
+    "group": "undead"
+}

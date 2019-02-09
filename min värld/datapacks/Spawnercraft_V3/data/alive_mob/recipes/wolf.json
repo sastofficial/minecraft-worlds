@@ -1,0 +1,4 @@
+﻿{
+"type": "crafting_shaped","pattern": [" C ","#EB"," g "],"key": {"#": {"item": "minecraft:chicken"},"B": {"item": "minecraft:beef"},"C": {"item": "minecraft:bone"},"E": {"item": "minecraft:egg"},"g": {
+"item": "minecraft:gold_ingot"}},"result": {"item": "minecraft:wolf_spawn_egg","count": 1},"group": "egg"
+}

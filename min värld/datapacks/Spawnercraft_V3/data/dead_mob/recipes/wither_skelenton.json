@@ -1,0 +1,4 @@
+﻿{
+"type": "crafting_shaped","pattern": [" C ","#E#"," g "],"key": {"#": {"item": "minecraft:coal"},"C": {"item": "minecraft:stone_sword"},"E": {"item": "minecraft:egg"},"g": {
+"item": "minecraft:gold_ingot"}},"result": {"item": "minecraft:wither_skelenton_spawn_egg","count": 1},"group": "undead"
+}

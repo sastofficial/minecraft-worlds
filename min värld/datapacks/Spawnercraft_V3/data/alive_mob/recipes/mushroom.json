@@ -1,0 +1,30 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "REB",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:mycelium"
+        },
+        "R": {
+            "item": "minecraft:red_mushroom_block"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "B": {
+            "item": "minecraft:brown_mushroom_block"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:mooshroom_spawn_egg",
+        "count": 1
+    },
+    "group": "egg"
+}

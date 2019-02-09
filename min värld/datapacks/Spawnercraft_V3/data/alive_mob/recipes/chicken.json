@@ -1,0 +1,21 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "   ",
+        " # ",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:chicken_spawn_egg",
+        "count": 1
+    },
+    "group": "egg"
+}

@@ -1,0 +1,4 @@
+﻿{
+"type": "crafting_shaped","pattern": [" C ","#E#"," g "],"key": {"#": {"item": "minecraft:cod"},"C": {"item": "minecraft:white_wool"},"E": {"item": "minecraft:egg"},"g": {
+"item": "minecraft:gold_ingot"}},"result": {"item": "minecraft:ocelot_spawn_egg","count": 1},"group": "egg"
+}

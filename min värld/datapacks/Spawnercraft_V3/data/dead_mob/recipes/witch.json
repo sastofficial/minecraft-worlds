@@ -1,0 +1,30 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "GER",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass_bottle"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:witch_spawn_egg",
+        "count": 1
+    },
+    "group": "undead"
+}

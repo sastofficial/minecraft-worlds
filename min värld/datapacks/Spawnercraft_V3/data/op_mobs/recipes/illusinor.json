@@ -1,0 +1,3 @@
+﻿{
+"type": "crafting_shaped","pattern": [" C "," # ","   "],"key": {"#": {"item": "minecraft:nether_star"},"C": {"item": "minecraft:emerald"}},"result": {"item": "minecraft:barrier","count": 1},"group": "op"
+}

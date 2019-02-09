@@ -1,0 +1,24 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        " # ",
+        "#E#",
+        " g "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:zombie_spawn_egg",
+        "count": 1
+    },
+    "group": "undead"
+}
