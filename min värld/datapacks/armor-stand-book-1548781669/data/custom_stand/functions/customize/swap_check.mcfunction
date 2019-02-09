@@ -1,0 +1,2 @@
+execute store success score check cas_pos as @e[type=minecraft:armor_stand,tag=casTemp,limit=1] run function custom_stand:customize/swap
+execute if score check cas_pos matches 0 run tellraw @s {"text":"This feature is only available in Minecraft 1.14.","color":"red"}

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "cas_new": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "custom_stand:book"
+    }
+}
