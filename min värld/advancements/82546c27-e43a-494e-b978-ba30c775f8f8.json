@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "custom_stand:new_player": {
+    "criteria": {
+      "cas_new": "2019-02-09 16:00:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2018-10-15 17:58:03 +0200"
